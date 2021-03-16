@@ -1,0 +1,20 @@
+{
+  "name": "dancewebsitenodejs",
+  "version": "1.0.0",
+  "description": "It will be a good and super to use a website for me and for other also",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awasm"
+  ],
+  "author": "subhajit",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0",
+    "pug": "^3.0.2"
+  }
+}

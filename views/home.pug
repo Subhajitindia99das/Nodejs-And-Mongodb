@@ -1,0 +1,72 @@
+extends base.pug
+
+block scripts 
+  script(src="/static/index.js") 
+
+block style
+  style 
+    include ../static/style.css
+
+block content 
+   body
+    
+    nav#navbar.top 
+        ul 
+
+          #logo 
+            img(src="/static/img/logo.png", alt="Logo")
+            p
+              | NDA 
+          li #[a(href="/") Home ]
+          li #[a(href="/") About]
+          li #[a(href="/") Services ]
+          li #[a(href="/") class Info ]
+          li #[a(href="/contact") Contact Us ]
+
+    section#introSection 
+        div Join to the dance academy to learn dance 
+        div 
+            p
+              | Start quickly 
+    
+    section#spnsorsSection 
+        //- img(src="../static/img/download.jpg", alt="danceimage")
+        p
+          | Our Mission
+        
+        #idcard 
+
+          .card 
+            div Option 1
+            .card-box1 
+              img(src="/static/img/1.png", alt="Photo")
+            p
+              | It is a simple card written in the html form ... According to the Harry da the html , css and these types of language are not the a type of language to learn <, It is the basic thing to learn the webdevelopment in the mannual form
+          .card
+            div Option 1
+            .card-box2 
+              img(src="/static/img/2.png", alt="Photo")
+            p
+              | It is a simple card written in the html form ... According to the Harry da the html , css and these types of language are not the a type of language to learn <, It is the basic thing to learn the webdevelopment in the mannual form
+          .card 
+            div Option 1
+            .card-box3
+              img(src="/static/img/3.png", alt="Photo")
+            p
+              | It is a simple card written in the html form ... According to the Harry da the html , css and these types of language are not the a type of language to learn <, It is the basic thing to learn the webdevelopment in the mannual form
+          
+
+    section#sponsorSection 
+      h2 
+        | Our sponsors
+      
+      .sponsorimg 
+        img(src="/static/img/logo1.png", alt="logo1")
+        img(src="/static/img/logo2.png", alt="logo1")
+        img(src="/static/img/logo3.png", alt="logo1")
+        img(src="/static/img/logo4.png", alt="logo1")
+              
+
+    //- It is the script part of the javaScript
+    script
+    include ../static/index.js
